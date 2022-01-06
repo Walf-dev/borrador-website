@@ -509,8 +509,8 @@
       <!-- /Blog -->
 
       <!-- Footer -->
-<footer class="sigma_footer style-2 section-padding pb-0">
-      <div class="container">
+      <footer class="sigma_footer style-2 section-padding pb-0">
+        <div class="container">
           <div class="sigma_footer-top">
             <div class="footer-item">
               <ul class="sigma_footer-links">
@@ -529,30 +529,61 @@
               </ul>
             </div>
             <div class="sigma_footer-logo">
-              <img src="assets/images/logo.png" alt="logo">
+              <img src="assets/images/logo.png" alt="logo" />
             </div>
-              <div class="follow_us m-0">
-                      <ul>
-                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-internet-explorer"></i></a></li>
-                        </ul>
-                    </div>
+            <div class="follow_us m-0">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/borradorcm" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                  href="https://wa.me/?text=Hello Borrador!👋"
+                    data-action="share/whatsapp/share"
+                    onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    target="_blank"
+                    title="Share on whatsapp"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/caleb-teukoua-960b05229/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UC2reouvVSbnSGPCQNAU4n1A"
+                    target="_blank"
+                    ><i class="fa fa-youtube"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="sigma_footer-bottom d-block d-sm-flex align-items-center justify-content-between">
+          <div
+            class="sigma_footer-bottom d-block d-sm-flex align-items-center justify-content-between"
+          >
             <div class="sigma_footer-copyright">
-              <p class="mb-0"> Copyright © Website
-                <a href="#">2021</a>
+              <p class="mb-0">
+                Copyright © <span id="footer-year"></span> Borrador. All rights
+                reserved
               </p>
             </div>
             <div class="sigma_footer-payment mt-3 mt-sm-0">
-              <img src="assets/images/footer-bottom-img.png" alt="img">
+              Build by
+              <a href="https://fredolywagni.com/" target="_blank"
+                >Fredoly Wagni</a
+              >
             </div>
           </div>
-      </div>
-</footer>
-<!-- /Footer -->
+        </div>
+      </footer>
+  <!-- /Footer -->
 
       <!-- Sidebar-Nav -->
 <div id="sidebar_nav" class="slide_menu">
@@ -637,6 +668,8 @@
       <!-- Newsletter Modal End -->
 
       <!-- Scripts -->
+      <script src="assets/js/footer.js"></script>
+
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
       <!--Parallax-JS-->

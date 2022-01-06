@@ -211,7 +211,7 @@ $(".counter").each(function() {
     slidesToScroll: 1,
     arrows: true,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 767,

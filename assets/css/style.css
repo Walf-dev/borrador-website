@@ -969,7 +969,7 @@ margin-top: 30px;
 }
 
 .sigma_header-topbar{
-	background-color: #042F3F;
+	background-color: #f4b5a7;
 }
 
 .sigma_header-topbar-inner{
@@ -1028,6 +1028,11 @@ margin-top: 30px;
 	align-items: center;
 	justify-content: center;
 	padding: 10px 0;
+}
+
+.sigma_logo_img{
+height:60px;
+width:60px;
 }
 
 .sigma_header .navbar-nav{
@@ -1514,6 +1519,14 @@ margin-top: 30px;
 	letter-spacing:1px;
 	font-size:24px;
 }
+.sponsors .motto {
+	color:#60869e;
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:1px;
+	font-size:24px;
+}
+
 .intro_text h1 {
 	margin:0 auto 50px;
 	line-height:90px;
@@ -1526,6 +1539,10 @@ margin-top: 30px;
 
 .intro_text.style-2 h1{
 	margin: 20px 0;
+}
+.category-product{
+height:450px;
+width:200px;
 }
 .btn_wp {
 	padding: 2px 0 25px;
@@ -1873,7 +1890,7 @@ margin-top: 30px;
 	color:#8c85b7;
 }
 .sponsors {
-	background:url(../images/1920x500.jpg) no-repeat center / cover;
+	background:url(../images/1920x500.png) no-repeat center / cover;
 	padding:100px 0;
 	margin:0 20px;
 	text-align:center;
@@ -2935,6 +2952,10 @@ margin-top: 30px;
 	-moz-transition-duration:0.3s;
 	-o-transition-duration:0.3s;
 	-webkit-transition-duration:0.3s;
+}
+.about-icon{
+	height:80px;
+	width:80px;
 }
 
 .info_box.has-animation{
@@ -4327,10 +4348,9 @@ height: auto;
 }
 
 .sigma_product-price span + span{
-	font-size: 14px;
-	margin-left: 6px;
-	text-decoration: line-through;
-	color: #d2d2d2;
+	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
 }
 
 /*--- shop-left -- */
