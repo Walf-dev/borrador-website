@@ -5681,56 +5681,56 @@ a, a:hover {
   }
   
   .section-products #product-1 .part-1::before {
-	background: url("/assets/images/shop/vert.png") no-repeat center;
+	background: url("../images/shop/vert.png") no-repeat center;
 	background-size: cover;
 	transition: all 0.3s;
   }
   
   .section-products #product-2 .part-1::before {
-	background: url("/assets/images/shop/suave.png") no-repeat center;
+	background: url("../images/shop/suave.png") no-repeat center;
 	background-size: cover;
   }
   
   .section-products #product-3 .part-1::before {
-	background: url("/assets/images/shop/rose1.png") no-repeat center;
+	background: url("../images/shop/rose1.png") no-repeat center;
 	background-size: cover;
   }
   
   .section-products #product-4 .part-1::before {
-	background: url("/assets/images/shop/pousse1.png") no-repeat center;
+	background: url("../images/shop/pousse1.png") no-repeat center;
 	background-size: cover;
   }
   .section-products #product-5 .part-1::before {
-	background: url("/assets/images/shop/pousse_230.png") no-repeat center;
+	background: url("../images/shop/pousse_230.png") no-repeat center;
 	background-size: cover;
 	transition: all 0.3s;
   }
   
   .section-products #product-6 .part-1::before {
-	background: url("/assets/images/shop/rose3.png") no-repeat center;
+	background: url("../images/shop/rose3.png") no-repeat center;
 	background-size: cover;
   }
   
   .section-products #product-7 .part-1::before {
-	background: url("/assets/images/shop/fresh1.png") no-repeat center;
+	background: url("../images/shop/fresh1.png") no-repeat center;
 	background-size: cover;
   }
   
   .section-products #product-8 .part-1::before {
-	background: url("/assets/images/shop/fresh2.png") no-repeat center;
+	background: url("../images/shop/fresh2.png") no-repeat center;
 	background-size: cover;
   }
   .section-products #product-9 .part-1::before {
-	background: url("/assets/images/shop/fresh3.png") no-repeat center;
+	background: url("../images/shop/fresh3.png") no-repeat center;
 	background-size: cover;
   }
   
   .section-products #product-10 .part-1::before {
-	background: url("/assets/images/shop/rose2.png") no-repeat center;
+	background: url("../images/shop/rose2.png") no-repeat center;
 	background-size: cover;
   }
   .section-products #product-11 .part-1::before {
-	background: url("/assets/images/shop/rose5.png") no-repeat center;
+	background: url("../images/shop/rose5.png") no-repeat center;
 	background-size: cover;
   }
 
@@ -5788,15 +5788,22 @@ a, a:hover {
 	color: #fe302f;
   }
   
+  .section-products .single-product .part-2{
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgb(250, 203, 243);  
+	padding:30px;
+  }
+
   .section-products .single-product .part-2 .product-title {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	color: #cb6ce6;
 	font-weight:bold;	
   }
   
   .section-products .single-product .part-2 h4 {
 	display: inline-block;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
   }
   
   .section-products .single-product .part-2 .product-old-price {
