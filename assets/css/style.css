@@ -966,6 +966,7 @@ margin-top: 30px;
 	position: relative;
 	background-color: #fff;
 	box-shadow: 0 2px 32px rgba(0, 0, 0, 0.15);
+	width: 100%;
 }
 
 .sigma_header-topbar{
@@ -1039,6 +1040,7 @@ width:60px;
 	flex-direction: row;
 	padding-left: 0;
 	margin: 0;
+	position: relative;
 }
 
 .sigma_header .navbar-nav li{
@@ -5063,7 +5065,11 @@ h3 {
 	.sigma_header .aside-toggle{
 		display: flex;
 	}
-
+	.sigma_header{
+		position: fixed;
+		z-index: 1;
+	}
+	
 	.sigma_header .navbar-nav,
 	.sigma_header .aside-toggle.desktop-toggler{
 		display: none;
