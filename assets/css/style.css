@@ -4453,6 +4453,9 @@ height: auto;
 	padding: 5px;
 	white-space: nowrap;
 }
+.product-type{
+	color:#6d8aa4;
+}
 .shop-detail-content .sigma_product-price span:first-child{
 	color: #cb6ce6;
 }
