@@ -4449,6 +4449,9 @@ height: auto;
 
 .product-price{
 	color: #cb6ce6;
+	background-color: white;
+	padding: 5px;
+	white-space: nowrap;
 }
 .shop-detail-content .sigma_product-price span:first-child{
 	color: #cb6ce6;
@@ -5628,6 +5631,39 @@ p {
 
 /*pricing section*/
 
+.product-icons ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	transition: bottom 0.5s, opacity 0.5s;
+  }
+  
+  .product-icons:hover ul {
+	opacity: 1;
+  }
+  
+  .product-icons ul li {
+	display: inline-block;
+	margin-right: 4px;
+  }
+  
+  .product-icons ul li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #36aac8;
+	color: white;
+	text-align: center;
+	box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+	transition: color 0.2s;
+  }
+  
+  .product-icons ul li a:hover {
+	color: #fda4e3;
+  }
+
 a, a:hover {
 	text-decoration: none;
 	color: inherit;
@@ -5785,7 +5821,7 @@ a, a:hover {
   }
   
   .section-products .single-product .part-1 ul li a:hover {
-	color: #fe302f;
+	color: #fda4e3;
   }
   
   .section-products .single-product .part-2{
@@ -5796,11 +5832,15 @@ a, a:hover {
   }
 
   .section-products .single-product .part-2 .product-title {
-	font-size: 1rem;
-	color: #cb6ce6;
+	font-size: 1.4rem;
+	color: #35a8c6;
 	font-weight:bold;	
   }
-  
+  .section-products .single-product .part-2 .product-unit-price {
+	font-size: 1.1rem;
+	color: #35a8c6;
+	font-weight:bold;	
+  }
   .section-products .single-product .part-2 h4 {
 	display: inline-block;
 	font-size: 1.1rem;
