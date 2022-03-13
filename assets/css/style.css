@@ -4472,7 +4472,7 @@ height: auto;
 .shop-detail-content .shop-detail-inner .short-descr p,
 .shop-detail-content .shop-detail-inner .availability-box{
 	margin-bottom: 12px;
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 .shop-detail-content .sigma_product-price span{
@@ -5638,6 +5638,9 @@ p {
 .shop-detail-content .quantity-cart .cart-btn{
 	padding-left: 0;
 	padding-top: 20px;
+}
+.video-btn{
+	margin-top: 15px;
 }
 .product-description .nav-tabs{
 	display: block;
