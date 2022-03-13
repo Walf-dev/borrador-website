@@ -5696,7 +5696,7 @@ p {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #36aac8;
+	background-color: #042f3f;
 	color: white;
 	text-align: center;
 	box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
@@ -5876,12 +5876,12 @@ a, a:hover {
 
   .section-products .single-product .part-2 .product-title {
 	font-size: 1.4rem;
-	color: #35a8c6;
+	color: #042f3f;
 	font-weight:bold;	
   }
   .section-products .single-product .part-2 .product-unit-price {
 	font-size: 1.1rem;
-	color: #35a8c6;
+	color: #042f3f;
 	font-weight:bold;	
   }
   .section-products .single-product .part-2 h4 {
