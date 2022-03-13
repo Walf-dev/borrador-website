@@ -5358,6 +5358,9 @@ h5 {
 .service_box h3 {
 	font-size: 25px;
 }
+.intro_text {
+	margin-top: 60px;
+}
 .intro_text h1 {
 	margin: 0 auto 30px;
 	line-height: 45px;
