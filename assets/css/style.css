@@ -1939,6 +1939,13 @@ width:200px;
 
 
 /*----- Team Detail ------*/
+.mb-0 {
+	font-size:1.2rem;
+}
+.mb-0::first-letter {
+	font-size:2.2rem;
+	font-family: Magzo;
+}
 
 .about-team .team-descr,
 .about-team .follow_us{
