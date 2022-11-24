@@ -1,0 +1,33 @@
+.results tr[visible='false'], .no-result {
+  display: none;
+}
+
+.results tr[visible='true'] {
+  display: table-row;
+}
+
+.counter {
+  padding: 8px;
+  color: #ccc;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.fa-phone {
+  color: #6a204d;
+}
+
+.fa-whatsapp {
+  color: #06d755;
+}
+
+table {
+  color: #6a204d!important;
+}
+

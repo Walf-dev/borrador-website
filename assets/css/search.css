@@ -1,0 +1,28 @@
+.ref-button {
+  background-color: white;
+  color: #6a204d;
+  transition: 0.5s;
+}
+
+.reflow-product-search input::placeholder {
+  color: #6a204d;
+  font-size: 0.8rem;
+}
+
+.ref-button:hover, .ref-button:active {
+  color: #fff;
+  background-color: #f4b2e2 !important;
+}
+
+.reflow-product-search input:focus {
+  box-shadow: 0 0 5pt 2pt #fda4e3;
+}
+
+.reflow-product-search input:hover {
+  box-shadow: 0 0 5pt 2pt #fda4e3;
+}
+
+.reflow-product-search input {
+  transition: 1s;
+}
+

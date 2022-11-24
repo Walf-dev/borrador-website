@@ -1,0 +1,45 @@
+.btn-primary {
+  color: #fff;
+  background-color: #ac0e93;
+  border-color: #fda4e3;
+}
+
+.blinking-button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+a:hover {
+  color: #fda4e3;
+}
+
+.btn-primary:hover {
+  color: #6a204d;
+  background-color: #fda4e3;
+  border-color: #b520a2;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #2f54cf;
+  border-color: #2c4fc3;
+  box-shadow: 0 0 0 .25rem rgba(85,122,246,.5);
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #b520a2;
+    box-shadow: 0 0 3px #b520a2;
+  }
+  50% {
+    background-color: #fda4e3;
+    box-shadow: 0 0 40px #fda4e3;
+  }
+  100% {
+    background-color: #b520a2;
+    box-shadow: 0 0 3px #b520a2;
+  }
+}
+
